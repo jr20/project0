@@ -1,0 +1,61 @@
+.stranice-div {
+    position: relative;
+    margin: 0 auto;
+    clear: left;
+    height: auto;
+    z-index: 0;
+    width: auto;
+    background-color: #3B3B38;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.stranice-div > a {
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+}
+
+.slista-div {
+    border: 1px solid black;   
+    margin: 50px;
+    background-color: #3B3B38;
+}
+
+.slista-div > ol {
+    color black;
+    font-size: large;
+    text-align: center;
+}
+
+.slista-div ol li:hover {
+    color: orangered;
+}
+
+.nslista-div {
+    border: 1px solid black;   
+    margin: 50px;
+    background-color: #3B3B38;
+}
+
+.nslista-div > ul {
+    color: black;
+    font-size: large;
+    text-align: center;
+}
+
+.nslista-div ul li:hover {
+    color: orangered;
+    font-size: small;
+}
+body {
+    background-image: url("pozadina.jpg");
+}
+#narandza {
+    height: 200px;
+    width: 200px;
+}
+#narandza > img{
+    height: 100px;
+    width: 100px;
+}
